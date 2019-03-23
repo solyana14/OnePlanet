@@ -7,7 +7,9 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
+    <script src="../js/main.js"></script>
 </head>
 
 <body>
@@ -16,15 +18,21 @@
         <div class="top-header">
             <div class="top-header-left">
                 <!--here make changes for the html to change images based on device-->
-                <img src='../assets/Logo.png' class="logo">
+                <img src='../assets/Logo.png' class="logo">   
             </div>
             <div class="top-header-right">
                 <div class="top-header-navigation">
                     <a href="#">Home</a>
                     <a href="#">Employment</a>
-                    <a href="#">Contact Us</a>
+                    <a href="#">Contact</a>
+                    <div class="search-container">
+                            <!-- <form > -->
+                              <input type="text" placeholder="Search.." name="search" class="form-control">
+                              <button type="submit" id="search" onclick="test()"class='btn btn-primary'><span class="glyphicon glyphicon-search"></span></button>
+                            <!-- </form> -->
+                    </div>
                 </div>
-                <h2 class="top-header-text"></h2>
+                <h1 class="top-header-text">"Every Child is Potentially the Light of the World"</h1>
             </div>
         </div>
 
